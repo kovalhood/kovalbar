@@ -3,7 +3,7 @@ import Container from 'components/Container/Container';
 
 export const Header = () => {
     return (
-        <header>
+        <header className={s.header}>
             <Container>
                 <p>KovalBar</p>
             </Container>

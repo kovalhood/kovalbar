@@ -4,19 +4,19 @@ export const Menu = () => {
     return (
         <ul className={s.menu}>
             <li className={s.menu_item}>
-                <a href="#" className={s.menu_link}>Strong</a>
+                <a href="#strong" className={s.menu_link}>Strong</a>
             </li>   
             <li className={s.menu_item}>
-                <a href="#" className={s.menu_link}>Light</a>
+                <a href="#light" className={s.menu_link}>Light</a>
             </li>  
             <li className={s.menu_item}>
-                <a href="#" className={s.menu_link}>Clear</a>
+                <a href="#clear" className={s.menu_link}>Clear</a>
             </li>  
             <li className={s.menu_item}>
-                <a href="#" className={s.menu_link}>No Alcohol</a>
+                <a href="#no_alcohol" className={s.menu_link}>No Alcohol</a>
             </li> 
             <li className={s.menu_item}>
-                <a href="#" className={s.menu_link}>Hookah</a>
+                <a href="#hookah" className={s.menu_link}>Hookah</a>
             </li> 
         </ul> 
     );
