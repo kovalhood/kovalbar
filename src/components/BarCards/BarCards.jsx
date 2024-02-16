@@ -5,7 +5,7 @@ import Container from '../Container/Container';
 import barData from '../../data/bar-menu.json';
 import itemTypes from '../../data/item-types.json';
 import { BarCard } from './BarCard/BarCard';
-import s from './BarCards.module.scss';
+// import s from './BarCards.module.scss';
 
 export const BarCards = () => {
   const [activeTab, setActiveTab] = useState('strong');

@@ -1,4 +1,4 @@
-import s from './BarCard.module.scss';
+// import s from './BarCard.module.scss';
 import {Row, Col, Image, Collapse} from 'antd';
 
 export const BarCard = ({ barItem }) => {
