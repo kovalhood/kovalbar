@@ -1,0 +1,78 @@
+[
+  {
+    "id": 101,
+    "image": "https://ru.inshaker.com/uploads/cocktail/hires/1085/1555935493-com_800xmax.jpg",
+    "name": "Old Fashioned",
+    "description": "Cocktail based on bourbon and bitter",
+    "alcohol": true,
+    "type": "strong",
+    "recipe": [
+      {
+        "ingredient": "Bourbon",
+        "amount": "60ml"
+      },
+      {
+        "ingredient": "Angostura Bitter",
+        "amount": "2-3"
+      },
+      {
+        "ingredient": "Orange peel"
+      }
+    ],
+    "history": "Primary cocktail historians note that the Old Fashioned cocktail was invented at the Pendennis Club in Louisville, Kentucky, in 1889, a gentleman's club that clings on to its original values still today, where “decency, decorum, civility, good manners and the social graces are still very much in style”."
+  },
+  {
+    "id": 102,
+    "image": "https://ru.inshaker.com/uploads/cocktail/hires/55/1629728461-%D0%9D%D0%B5%D0%B3%D1%80%D0%BE%D0%BD%D0%B8.jpg",
+    "name": "Negroni",
+    "description": "Cocktail based on Gin and Campari",
+    "alcohol": true,
+    "type": "strong",
+    "recipe": [
+      {
+        "ingredient": "Gin",
+        "amount": "30ml"
+      },
+      {
+        "ingredient": "Red Vermouth",
+        "amount": "30ml"
+      },
+      {
+        "ingredient": "Campari",
+        "amount": "30ml"
+      },
+      {
+        "ingredient": "Orange peel"
+      }
+    ],
+    "history": "The most widely reported version of this drink's origin is that it was invented at Caffe Casoni in Florence, Italy in 1919. Legend tells that Count Camillo Negroni asked his friend, bartender Forsco Scarselli, to strengthen his favourite cocktail – the Americano – by replacing the soda water with gin."
+  },
+  {
+    "id": 201,
+    "image": "https://cdn.amwine.ru/upload/resize_cache/iblock/fcb/400_620_140cd750bba9870f18aada2478b24840a/fcb8a29a08a09eed0c520c3281526bc5.png",
+    "name": "Pina Colada",
+    "description": "Sweet tropical cocktail",
+    "alcohol": true,
+    "type": "light",
+    "recipe": [
+      {
+        "ingredient": "Rum",
+        "amount": "40ml"
+      },
+      {
+        "ingredient": "Pineapple juice",
+        "amount": "90ml"
+      },
+      {
+        "ingredient": "Coconut syrup",
+        "amount": "15ml"
+      },
+      {
+        "ingredient": "Cream",
+        "amount": "15ml"
+      }
+    ],
+    "history": "The earliest known story states that in the 19th century, Puerto Rican pirate Roberto Cofresí, to boost his crew's morale, gave them a beverage or cocktail that contained coconut, pineapple and white rum. This was what would be later known as the famous piña colada."
+  }
+
+]

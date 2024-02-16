@@ -5,9 +5,9 @@ export const Header = () => {
     return (
         <header className={s.header}>
             <Container>
-                <p>KovalBar</p>
+                <p className={s.logo}>KovalBar</p>
             </Container>
         </header>
-        
+
     );
 };
