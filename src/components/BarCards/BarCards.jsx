@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Row, Col, Tabs } from 'antd';
 import Section from '../Section/Section';
 import Container from '../Container/Container';
-import barData from '../../data/bar-menu.json';
 import menuStrongData from '../../data/menu-strong.json';
 import menuLightData from '../../data/menu-light.json';
 import itemTypes from '../../data/item-types.json';
