@@ -8,11 +8,19 @@ import itemTypes from '../../data/item-types.json';
 import { BarCard } from './BarCard/BarCard';
 import s from './BarCards.module.scss';
 
+const lastActiveTab = localStorage.getItem('activeTab');
 export const BarCards = () => {
-  const [activeTab, setActiveTab] = useState('strong');
-  const [activeData, setActiveData] = useState(menuStrongData);
+  const [activeTab, setActiveTab] = useState(lastActiveTab || 'strong');
+  const [activeData, setActiveData] = useState([]);
+
+  useEffect(() => {
+    const lastActiveTab = localStorage.getItem('activeTab');
+    setActiveTab(lastActiveTab || 'strong');
+  }, []);
 
   useEffect(()=>{
+    localStorage.setItem('activeTab', activeTab);
+
     if(activeTab==='strong'){
       setActiveData(menuStrongData.sort((a, b) => a.id - b.id))
     }
@@ -35,7 +43,7 @@ export const BarCards = () => {
         <Container>
           <Row>
             <Col span={24}>
-              <Tabs defaultActiveKey="strong" items={itemTypes} onChange={handleTabChange}/>
+              <Tabs defaultActiveKey={activeTab} items={itemTypes} onChange={handleTabChange}/>
             </Col>
           </Row>
         </Container>
