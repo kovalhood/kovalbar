@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import s from './BarCard.module.scss';
 import { Row, Col, Image, Typography, Modal, Button } from 'antd';
-import { AlignLeftOutlined, ReadOutlined } from '@ant-design/icons';
+// import { AlignLeftOutlined } from '@ant-design/icons';
+import { ReadOutlined } from '@ant-design/icons';
 import { colorWithOpacity } from '../../../helpers/colorWithOpacity';
 import parse from 'html-react-parser';
 
