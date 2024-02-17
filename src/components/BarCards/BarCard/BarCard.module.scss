@@ -1,0 +1,72 @@
+.barCardWrapper{
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.barCardImageWrapper{
+  height: 140px;
+  overflow: hidden;
+
+
+  :global(.ant-image){
+    height: 100%;
+  }
+
+  :global(.ant-image-img){
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.barCardTitle,
+.barCardDescription{
+  text-align: center;
+}
+
+.barCardDescription{
+  color: #696969;
+}
+
+.barCardButtonsWrapper{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.barCardRecipeButton,
+.barCardHistoryButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #111111;
+  box-shadow: none;
+  font-weight: 500;
+
+  &:hover,
+  &:focus{
+    color: #111111 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  }
+}
+
+.barCardRecipeButton{
+  font-size: 13px;
+}
+
+.barCardModalTitle{
+  font-size: 18px !important;
+}
+
+.barCardIngredient{
+  font-size: 14px !important;
+}
+
+.barCardIngredientAmount{
+  font-weight: 600;
+}

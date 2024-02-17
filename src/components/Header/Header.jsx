@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <header className={s.header}>
             <Container>
-                <p className={s.logo}>KovalBar</p>
+                <p className={s.logo}>Koval<span className={s.logoAccent}>Bar</span></p>
             </Container>
         </header>
 
