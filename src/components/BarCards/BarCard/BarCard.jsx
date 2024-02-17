@@ -13,18 +13,22 @@ export const BarCard = ({ barItem }) => {
 
   const openRecipeModal = () => {
     setRecipeModalVisible(true);
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#8C8C8C');
   };
 
   const openHistoryModal = () => {
     setHistoryModalVisible(true);
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#8C8C8C');
   };
 
   const closeRecipeModal = () => {
     setRecipeModalVisible(false);
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff');
   };
 
   const closeHistoryModal = () => {
     setHistoryModalVisible(false);
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff');
   };
 
   return (
@@ -54,6 +58,7 @@ export const BarCard = ({ barItem }) => {
           </Row>
         </Col>
       </Row>
+
       <Modal
         title={<Title level={3} className={s.barCardModalTitle}>Рецепт коктейлю "{barItem.name}"</Title>}
         open={recipeModalVisible}
@@ -72,6 +77,7 @@ export const BarCard = ({ barItem }) => {
           ))}
         </Row>
       </Modal>
+
       <Modal
         title={<Title level={3} className={s.barCardModalTitle}>Історія коктейлю "{barItem.name}"</Title>}
         open={historyModalVisible}

@@ -44,7 +44,7 @@ export const BarCards = () => {
         <Container>
           <Row>
             <Col span={24}>
-              <Row gutter={[12, 12]}>
+              <Row gutter={[8, 8]}>
                 {activeData.map((item, index)=>(
                   <BarCard barItem={item} key={index}/>
                 ))}
