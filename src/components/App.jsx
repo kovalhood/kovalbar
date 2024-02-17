@@ -11,7 +11,6 @@ export const App = () => {
           colorPrimary: '#de4242',
           borderRadius: 8,
           colorText: "#111111",
-          colorBgContainer: '#f6ffed',
         },
       }}
     ><Fragment>

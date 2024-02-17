@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import s from './BarCard.module.scss';
 import { Row, Col, Image, Typography, Modal, Button } from 'antd';
-import { AlignLeftOutlined } from '@ant-design/icons';
+import { AlignLeftOutlined, ReadOutlined } from '@ant-design/icons';
 import { colorWithOpacity } from '../../../helpers/colorWithOpacity';
+import parse from 'html-react-parser';
 
 const { Title, Paragraph } = Typography;
 
@@ -48,7 +49,8 @@ export const BarCard = ({ barItem }) => {
               <Button type={'primary'} onClick={openRecipeModal} style={{backgroundColor: colorWithOpacity(barItem.color, 0.7)}} className={s.barCardRecipeButton}>Рецепт</Button>
             </Col>
             <Col span={6}>
-              <Button type={'primary'} onClick={openHistoryModal} style={{backgroundColor: colorWithOpacity(barItem.color, 0.7)}} className={s.barCardHistoryButton}><AlignLeftOutlined /></Button>
+              {/*<Button type={'primary'} onClick={openHistoryModal} style={{backgroundColor: colorWithOpacity(barItem.color, 0.7)}} className={s.barCardHistoryButton}><AlignLeftOutlined /></Button>*/}
+              <Button type={'primary'} onClick={openHistoryModal} style={{backgroundColor: colorWithOpacity(barItem.color, 0.7)}} className={s.barCardHistoryButton}><ReadOutlined /></Button>
             </Col>
           </Row>
         </Col>
@@ -78,7 +80,7 @@ export const BarCard = ({ barItem }) => {
         footer={null}
         centered={true}
       >
-        <p>{barItem.history}</p>
+        <div className={s.barCardModalHistory}>{parse(barItem.history)}</div>
       </Modal>
     </Col>
   );
