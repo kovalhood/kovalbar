@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kovalbar/static/css/main.1fe64f78.css",
-    "main.js": "/kovalbar/static/js/main.703b1dac.js",
+    "main.css": "/kovalbar/static/css/main.3410f024.css",
+    "main.js": "/kovalbar/static/js/main.24240fa9.js",
     "index.html": "/kovalbar/index.html",
     "static/media/logo.svg": "/kovalbar/static/media/logo.981040325dcfb569b6ef7b1edb06f8fb.svg",
-    "main.1fe64f78.css.map": "/kovalbar/static/css/main.1fe64f78.css.map",
-    "main.703b1dac.js.map": "/kovalbar/static/js/main.703b1dac.js.map"
+    "main.3410f024.css.map": "/kovalbar/static/css/main.3410f024.css.map",
+    "main.24240fa9.js.map": "/kovalbar/static/js/main.24240fa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fe64f78.css",
-    "static/js/main.703b1dac.js"
+    "static/css/main.3410f024.css",
+    "static/js/main.24240fa9.js"
   ]
 }
