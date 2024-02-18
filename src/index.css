@@ -63,3 +63,10 @@ img {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px){
+  .ant-modal-root .ant-modal{
+    width: 448px !important;
+    max-width: calc(100vw - 32px);
+  }
+}
