@@ -22,10 +22,10 @@ export const BarCards = () => {
     localStorage.setItem('activeTab', activeTab);
 
     if(activeTab==='strong'){
-      setActiveData(menuStrongData.sort((a, b) => a.id - b.id))
+      setActiveData(menuStrongData.sort((a, b) => a.id - b.id).sort((a, b) =>b.available - a.available))
     }
     else if(activeTab==='light'){
-      setActiveData(menuLightData.sort((a, b) => a.id - b.id))
+      setActiveData(menuLightData.sort((a, b) => a.id - b.id).sort((a, b) =>b.available - a.available))
     }
   }, [activeTab])
 

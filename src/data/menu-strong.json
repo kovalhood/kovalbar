@@ -1,6 +1,7 @@
 [
   {
     "id": 1010,
+    "available": true,
     "image": "https://i.ibb.co/Pwq3Mc9/1555935493-com-800xmax-removebg-preview.webp",
     "name": "Old Fashioned",
     "description": "Витончений віскі з приємною гіркотою та солодкістю",
@@ -24,6 +25,7 @@
   },
   {
     "id": 1020,
+    "available": true,
     "image": "https://i.ibb.co/rbby5tg/negroni.webp",
     "name": "Negroni",
     "description": "Гіркий, ароматний, з ботанічними та цитрусовими нотками",
@@ -51,6 +53,7 @@
   },
   {
     "id": 1030,
+    "available": true,
     "image": "https://i.ibb.co/pZgRLtc/manhattan.webp",
     "name": "Manhattan",
     "description": "Збалансований, ароматний, з терпкими фруктовими нотками",
@@ -75,6 +78,7 @@
   },
   {
     "id": 1040,
+    "available": true,
     "image": "https://i.ibb.co/0XSzQ9q/long-island.webp",
     "name": "Long Island",
     "description": "Освіжаючий, кисло-солодкий, з міксом алкоголю",
@@ -119,6 +123,7 @@
   },
   {
     "id": 1050,
+    "available": true,
     "image": "https://i.ibb.co/425NgZk/whiskey-sour.webp",
     "name": "Whiskey Sour",
     "description": "Кисло-солодкий, із вираженим віскі та освіжаючим лимоном",
@@ -147,6 +152,7 @@
   },
   {
     "id": 1060,
+    "available": true,
     "image": "https://i.ibb.co/VtSz0xT/firemans-sour.webp",
     "name": "Fireman's Sour",
     "description": "Кисло-солодкий, з ароматом цитрусу та прянощів",
@@ -175,6 +181,7 @@
   },
   {
     "id": 1070,
+    "available": true,
     "image": "https://i.ibb.co/GpgTGzH/boulevardier.webp",
     "name": "Boulevardier",
     "description": "Гіркий, терпкий, карамельний, з тонами фруктів і трав",
@@ -202,6 +209,7 @@
   },
   {
     "id": 1080,
+    "available": true,
     "image": "https://i.ibb.co/DMZ68cj/white-russian.webp",
     "name": "White Russian",
     "description": "Кавовий, кремовий, солодкий, з насиченим смаком",
@@ -226,6 +234,7 @@
   },
   {
     "id": 1090,
+    "available": true,
     "image": "https://i.ibb.co/YX3kNLG/daiquiri.webp",
     "name": "Daiquiri",
     "description": "Кисло-солодкий, з цитрусовим відтінком, на основі рому",
@@ -250,6 +259,7 @@
   },
   {
     "id": 1100,
+    "available": true,
     "image": "https://i.ibb.co/31MCJhC/margarita.webp",
     "name": "Margarita",
     "description": "Кисло-солодкий, з виразним ароматом текіли та лайма",
@@ -278,6 +288,7 @@
   },
   {
     "id": 1110,
+    "available": true,
     "image": "https://i.ibb.co/DkZDRrS/gimlet.webp",
     "name": "Gimlet",
     "description": "Кисло-солодкий, з виразним ароматом джину та лайма",
@@ -302,6 +313,7 @@
   },
   {
     "id": 1120,
+    "available": true,
     "image": "https://i.ibb.co/MV9fxQn/white-lady.webp",
     "name": "White Lady",
     "description": "Кисло-солодкий, з цитрусовим відтінком, на основі джину",
