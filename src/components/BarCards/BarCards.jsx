@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Tabs } from 'antd';
-import Section from '../Section/Section';
-import Container from '../Container/Container';
 import menuStrongData from '../../data/menu-strong.json';
 import menuLightData from '../../data/menu-light.json';
 import itemTypes from '../../data/item-types.json';
+import {scrollToTop} from '../../helpers/scrollToTop';
+import Section from '../Section/Section';
+import Container from '../Container/Container';
 import { BarCard } from './BarCard/BarCard';
 import s from './BarCards.module.scss';
 
@@ -18,23 +19,26 @@ export const BarCards = () => {
     setActiveTab(lastActiveTab || 'strong');
   }, []);
 
-  useEffect(()=>{
+  useEffect(() => {
     localStorage.setItem('activeTab', activeTab);
 
-    if(activeTab==='strong'){
-      setActiveData(menuStrongData.sort((a, b) => a.id - b.id).sort((a, b) =>b.available - a.available))
+    if (activeTab === 'strong') {
+      setActiveData(menuStrongData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
+    } else if (activeTab === 'light') {
+      setActiveData(menuLightData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
     }
-    else if(activeTab==='light'){
-      setActiveData(menuLightData.sort((a, b) => a.id - b.id).sort((a, b) =>b.available - a.available))
-    }
-  }, [activeTab])
+  }, [activeTab]);
+
+  useEffect(() => {
+    scrollToTop();
+  }, [activeTab, activeData]);
 
   const handleTabChange = (key) => {
     setActiveTab(key);
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+  };
+
+  const handleTabClick = () => {
+    scrollToTop();
   };
 
   return (
@@ -43,7 +47,7 @@ export const BarCards = () => {
         <Container>
           <Row>
             <Col span={24}>
-              <Tabs defaultActiveKey={activeTab} items={itemTypes} onChange={handleTabChange}/>
+              <Tabs defaultActiveKey={activeTab} items={itemTypes} onChange={handleTabChange} onTabClick={handleTabClick}/>
             </Col>
           </Row>
         </Container>

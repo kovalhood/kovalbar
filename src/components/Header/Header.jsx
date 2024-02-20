@@ -14,6 +14,5 @@ export const Header = () => {
               </div>
             </Container>
         </header>
-
     );
 };

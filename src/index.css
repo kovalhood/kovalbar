@@ -46,7 +46,6 @@ span.ant-typography{
 
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 *,
@@ -69,4 +68,11 @@ a {
     width: 448px !important;
     max-width: calc(100vw - 32px);
   }
+}
+
+.ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::before,
+.ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::before,
+.ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::after,
+.ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::after{
+  opacity: 0 !important;
 }
