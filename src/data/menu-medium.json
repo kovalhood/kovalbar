@@ -7,7 +7,7 @@
     "description": "Тропічний, фруктовий, з вираженими нотками рому та кокосу",
     "color": "#fcd738",
     "alcohol": true,
-    "type": "light",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Ром",
@@ -36,7 +36,7 @@
     "description": "Освіжаючий, кисло-солодкий, з ароматом тропічних фруктів",
     "color": "#ea5b5b",
     "alcohol": true,
-    "type": "light",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Темний ром",
@@ -81,7 +81,7 @@
     "description": "Кисло-солодкий, тропічний, освіжаючий, на основі рому",
     "color": "#D74F61",
     "alcohol": true,
-    "type": "light",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Ром",
@@ -111,7 +111,7 @@
     "description": "Кавовий, кремовий, солодкий, з насиченим смаком",
     "color": "#e0c6b0",
     "alcohol": true,
-    "type": "strong",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Горілка",
@@ -137,7 +137,7 @@
     "description": "Кисло-солодкий, з цитрусовим відтінком, на основі рому",
     "color": "#ece6b8",
     "alcohol": true,
-    "type": "strong",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Ром",
@@ -162,7 +162,7 @@
     "description": "Кисло-солодкий, з виразним ароматом джину та лайма",
     "color": "#b3ee74",
     "alcohol": true,
-    "type": "strong",
+    "type": "medium",
     "recipe": [
       {
         "ingredient": "Джин",
