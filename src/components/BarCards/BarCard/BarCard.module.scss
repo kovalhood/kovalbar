@@ -85,6 +85,12 @@
   transform: translateX(-50%);
 }
 
+.cardAlcoholMessageWrapper{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
 .notAvailableText{
   font-size: 11px !important;
   white-space: nowrap;

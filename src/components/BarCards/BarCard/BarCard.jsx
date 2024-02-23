@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import s from './BarCard.module.scss';
 import { Row, Col, Image, Typography, Modal, Button } from 'antd';
 import { ReadOutlined } from '@ant-design/icons';
+import { ReactComponent as NoAlcoholIcon } from '../../../icons/no-alcohol.svg';
 import { colorWithOpacity } from '../../../helpers/colorWithOpacity';
 import parse from 'html-react-parser';
 
@@ -89,6 +90,12 @@ export const BarCard = ({ barItem }) => {
       {!barItem.available &&
         <Row className={s.cardMessageWrapper}>
           <Paragraph className={s.notAvailableText} style={{color:greyColor}}>Немає в наявності</Paragraph>
+        </Row>
+      }
+
+      {!barItem.alcohol &&
+        <Row className={s.cardAlcoholMessageWrapper} style={{color: barItem.available ? barItem.color : greyColor}}>
+          <NoAlcoholIcon/>
         </Row>
       }
 

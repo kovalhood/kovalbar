@@ -1,4 +1,5 @@
 [
   { "key": "strong", "label": "Strong" },
-  { "key": "light", "label": "Light" }
+  { "key": "light", "label": "Light" },
+  { "key": "no-alcohol", "label": "No Alcohol" }
 ]
