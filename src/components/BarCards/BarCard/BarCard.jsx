@@ -30,51 +30,64 @@ export const BarCard = ({ barItem }) => {
                ? colorWithOpacity(barItem.color, 0.1)
                : colorWithOpacity(greyColor, 0.1)}}
            gutter={[0, 16]}>
-        <Col span={24} className={s.barCardImageWrapper}>
-          <Image src={barItem.image}
-                 style={{filter: barItem.available
-                     ? ''
-                     : 'grayscale(100%)'}}
-                 preview={false}
-                 width={'100%'}
-          />
-        </Col>
+
         <Col span={24}>
-          <Row gutter={[0, 8]}>
-            <Col span={24}>
-              <Title level={3} ellipsis={{rows: 1}} className={s.barCardTitle}>{barItem.name}</Title>
+          <Row gutter={[0, 16]}>
+            <Col span={24} className={s.barCardImageWrapper}>
+              <Image src={barItem.image}
+                     style={{filter: barItem.available
+                         ? ''
+                         : 'grayscale(100%)'}}
+                     preview={false}
+                     width={'100%'}
+              />
             </Col>
             <Col span={24}>
-              <Paragraph ellipsis={{rows: 3}} className={s.barCardDescription}>{barItem.description}</Paragraph>
+              <Row gutter={[0, 8]}>
+                <Col span={24}>
+                  <Title level={3} ellipsis={{rows: 1}} className={s.barCardTitle}>{barItem.name}</Title>
+                </Col>
+                <Col span={24}>
+                  <Paragraph ellipsis={{rows: 3}} className={s.barCardDescription}>{barItem.description}</Paragraph>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>
-        <Col span={24}>
-          <Row gutter={[16, 16]}>
-            <Col span={18}>
-              <Button
-                type={'primary'}
-                onClick={()=>handleRecipeModal(true)}
-                style={{backgroundColor: barItem.available
-                    ? colorWithOpacity(barItem.color, 0.7)
-                    : colorWithOpacity(greyColor, 0.7)}}
-                className={s.barCardRecipeButton}>
-                Рецепт
-              </Button>
-            </Col>
-            <Col span={6}>
-              <Button
-                type={'primary'}
-                onClick={()=>handleHistoryModal(true)}
-                style={{backgroundColor: barItem.available
-                    ? colorWithOpacity(barItem.color, 0.7)
-                    : colorWithOpacity(greyColor, 0.7)}}
-                className={s.barCardHistoryButton}>
-                <ReadOutlined />
-              </Button>
+        <Col span={24} style={{alignSelf:'flex-end'}}>
+          <Row>
+            <Col span={24}>
+              <Row gutter={[16, 16]}>
+                <Col span={18}>
+                  <Button
+                    type={'primary'}
+                    onClick={()=>handleRecipeModal(true)}
+                    style={{backgroundColor: barItem.available
+                        ? colorWithOpacity(barItem.color, 0.7)
+                        : colorWithOpacity(greyColor, 0.7)}}
+                    className={s.barCardRecipeButton}>
+                    Рецепт
+                  </Button>
+                </Col>
+                <Col span={6}>
+                  <Button
+                    type={'primary'}
+                    onClick={()=>handleHistoryModal(true)}
+                    style={{backgroundColor: barItem.available
+                        ? colorWithOpacity(barItem.color, 0.7)
+                        : colorWithOpacity(greyColor, 0.7)}}
+                    className={s.barCardHistoryButton}>
+                    <ReadOutlined />
+                  </Button>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>
+
+
+
+
       </Row>
 
       {!barItem.available &&
