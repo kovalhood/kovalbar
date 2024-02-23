@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import s from './BarCard.module.scss';
 import { Row, Col, Image, Typography, Modal, Button } from 'antd';
-import { ReadOutlined, StopOutlined } from '@ant-design/icons';
+import { ReadOutlined } from '@ant-design/icons';
 import { colorWithOpacity } from '../../../helpers/colorWithOpacity';
 import parse from 'html-react-parser';
 
@@ -84,15 +84,11 @@ export const BarCard = ({ barItem }) => {
             </Col>
           </Row>
         </Col>
-
-
-
-
       </Row>
 
       {!barItem.available &&
-        <Row className={s.notAvailableWrapper}>
-          <StopOutlined />
+        <Row className={s.cardMessageWrapper}>
+          <Paragraph className={s.notAvailableText} style={{color:'red'}}>Немає в наявності</Paragraph>
         </Row>
       }
 

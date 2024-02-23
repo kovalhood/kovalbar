@@ -78,8 +78,14 @@
   gap: 8px;
 }
 
-.notAvailableWrapper{
+.cardMessageWrapper{
   position: absolute;
-  top: 16px;
-  right: 20px;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.notAvailableText{
+  font-size: 10px !important;
+  white-space: nowrap;
 }
