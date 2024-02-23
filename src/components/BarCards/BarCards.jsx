@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Tabs } from 'antd';
 import menuStrongData from '../../data/menu-strong.json';
+import menuMediumData from '../../data/menu-medium.json';
 import menuLightData from '../../data/menu-light.json';
 import menuNoAlcoholData from '../../data/menu-no-alcohol.json';
 import itemTypes from '../../data/item-types.json';
@@ -25,6 +26,8 @@ export const BarCards = () => {
 
     if (activeTab === 'strong') {
       setActiveData(menuStrongData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
+    } else if (activeTab === 'medium') {
+      setActiveData(menuMediumData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
     } else if (activeTab === 'light') {
       setActiveData(menuLightData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
     } else if (activeTab === 'no-alcohol') {
