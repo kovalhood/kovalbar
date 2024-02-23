@@ -88,7 +88,7 @@ export const BarCard = ({ barItem }) => {
 
       {!barItem.available &&
         <Row className={s.cardMessageWrapper}>
-          <Paragraph className={s.notAvailableText} style={{color:'red'}}>Немає в наявності</Paragraph>
+          <Paragraph className={s.notAvailableText} style={{color:greyColor}}>Немає в наявності</Paragraph>
         </Row>
       }
 
