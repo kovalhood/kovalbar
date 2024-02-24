@@ -69,7 +69,7 @@ export const BarCard = ({ barItem }) => {
                         ? colorWithOpacity(barItem.color, 0.7)
                         : colorWithOpacity(greyColor, 0.7)}}
                     className={s.barCardRecipeButton}>
-                    Рецепт
+                    {barItem?.history ? 'Рецепт' : 'Детальніше'}
                   </Button>
                 </Col>
                 {

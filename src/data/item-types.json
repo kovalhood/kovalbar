@@ -2,6 +2,5 @@
   { "key": "strong", "label": "Strong" },
   { "key": "medium", "label": "Medium" },
   { "key": "light", "label": "Light" },
-  { "key": "no-alcohol", "label": "No Alcohol" },
-  { "key": "hookah", "label": "Hookah" }
+  { "key": "no-alcohol", "label": "No Alcohol" }
 ]
