@@ -54,32 +54,6 @@
   {
     "id": 9030,
     "available": true,
-    "image": "https://i.ibb.co/g6Q80WD/hookah-blueberry.webp",
-    "name": "Чорниця",
-    "color": "#2b51ee",
-    "type": "light",
-    "recipe": [
-      {
-        "characteristic": "Солодкий",
-        "value": "4"
-      },
-      {
-        "characteristic": "Кислий",
-        "value": "0"
-      },
-      {
-        "characteristic": "Свіжий",
-        "value": "0"
-      },
-      {
-        "characteristic": "Пряний",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": 9040,
-    "available": true,
     "image": "https://i.ibb.co/3WQZLhF/hookah-cola.png",
     "name": "Кола",
     "color": "#da4747",
@@ -96,6 +70,32 @@
       {
         "characteristic": "Свіжий",
         "value": "2"
+      },
+      {
+        "characteristic": "Пряний",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": 9040,
+    "available": true,
+    "image": "https://i.ibb.co/g6Q80WD/hookah-blueberry.webp",
+    "name": "Чорниця",
+    "color": "#2b51ee",
+    "type": "light",
+    "recipe": [
+      {
+        "characteristic": "Солодкий",
+        "value": "4"
+      },
+      {
+        "characteristic": "Кислий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Свіжий",
+        "value": "0"
       },
       {
         "characteristic": "Пряний",
