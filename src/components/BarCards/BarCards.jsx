@@ -4,11 +4,13 @@ import menuStrongData from '../../data/menu-strong.json';
 import menuMediumData from '../../data/menu-medium.json';
 import menuLightData from '../../data/menu-light.json';
 import menuNoAlcoholData from '../../data/menu-no-alcohol.json';
+import menuHookahData from '../../data/menu-hookah.json';
 import itemTypes from '../../data/item-types.json';
 import {scrollToTop} from '../../helpers/scrollToTop';
 import Section from '../Section/Section';
 import Container from '../Container/Container';
 import { BarCard } from './BarCard/BarCard';
+import { HookahCard } from './HookahCard/HookahCard';
 import s from './BarCards.module.scss';
 
 const lastActiveTab = localStorage.getItem('activeTab');
@@ -32,6 +34,8 @@ export const BarCards = () => {
       setActiveData(menuLightData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
     } else if (activeTab === 'no-alcohol') {
       setActiveData(menuNoAlcoholData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
+    } else if (activeTab === 'hookah') {
+      setActiveData(menuHookahData.sort((a, b) => a.id - b.id).sort((a, b) => b.available - a.available));
     }
   }, [activeTab]);
 
@@ -63,9 +67,15 @@ export const BarCards = () => {
           <Row>
             <Col span={24}>
               <Row gutter={[8, 8]}>
-                {activeData.map((item, index)=>(
-                  <BarCard barItem={item} key={index}/>
-                ))}
+                {
+                  activeTab !== 'hookah'
+                    ? activeData.map((item, index)=>(
+                      <BarCard barItem={item} key={index}/>
+                    ))
+                    : activeData.map((item, index)=>(
+                      <HookahCard hookahItem={item} key={index}/>
+                    ))
+                }
               </Row>
             </Col>
           </Row>

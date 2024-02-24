@@ -118,15 +118,17 @@ export const BarCard = ({ barItem }) => {
         </Row>
       </Modal>
 
-      <Modal
-        title={<Title level={3} className={s.barCardModalTitle}>Історія коктейлю "{barItem.name}"</Title>}
-        open={historyModalVisible}
-        onCancel={()=>handleHistoryModal(false)}
-        footer={null}
-        centered={true}
-      >
-        <div className={s.barCardModalHistory}>{parse(barItem.history)}</div>
-      </Modal>
+      {
+        barItem?.history && <Modal
+          title={<Title level={3} className={s.barCardModalTitle}>Історія коктейлю "{barItem.name}"</Title>}
+          open={historyModalVisible}
+          onCancel={()=>handleHistoryModal(false)}
+          footer={null}
+          centered={true}
+        >
+          <div className={s.barCardModalHistory}>{parse(barItem?.history)}</div>
+        </Modal>
+      }
     </Col>
   );
 };

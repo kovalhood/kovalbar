@@ -1,0 +1,80 @@
+[
+  {
+    "id": 9010,
+    "available": true,
+    "image": "https://i.ibb.co/Qbm9dTD/hookah-grape.webp",
+    "name": "Виноград",
+    "color": "#0cc514",
+    "type": "light",
+    "recipe": [
+      {
+        "characteristic": "Солодкий",
+        "value": "3"
+      },
+      {
+        "characteristic": "Кислий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Свіжий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Пряний",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": 9020,
+    "available": true,
+    "image": "https://i.ibb.co/mqVTJZm/hookah-peach.webp",
+    "name": "Персик",
+    "color": "#fc8504",
+    "type": "light",
+    "recipe": [
+      {
+        "characteristic": "Солодкий",
+        "value": "4"
+      },
+      {
+        "characteristic": "Кислий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Свіжий",
+        "value": "3"
+      },
+      {
+        "characteristic": "Пряний",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": 9030,
+    "available": true,
+    "image": "https://i.ibb.co/g6Q80WD/hookah-blueberry.webp",
+    "name": "Чорниця",
+    "color": "#2b51ee",
+    "type": "light",
+    "recipe": [
+      {
+        "characteristic": "Солодкий",
+        "value": "4"
+      },
+      {
+        "characteristic": "Кислий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Свіжий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Пряний",
+        "value": "0"
+      }
+    ]
+  }
+]
