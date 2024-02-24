@@ -8,20 +8,20 @@
     "type": "light",
     "recipe": [
       {
-        "characteristic": "Солодкий",
-        "value": "3"
+        "ingredient": "Солодкий",
+        "amount": "3"
       },
       {
-        "characteristic": "Кислий",
-        "value": "0"
+        "ingredient": "Кислий",
+        "amount": "0"
       },
       {
-        "characteristic": "Свіжий",
-        "value": "0"
+        "ingredient": "Свіжий",
+        "amount": "0"
       },
       {
-        "characteristic": "Пряний",
-        "value": "0"
+        "ingredient": "Пряний",
+        "amount": "0"
       }
     ]
   },
@@ -34,20 +34,20 @@
     "type": "light",
     "recipe": [
       {
-        "characteristic": "Солодкий",
-        "value": "4"
+        "ingredient": "Солодкий",
+        "amount": "4"
       },
       {
-        "characteristic": "Кислий",
-        "value": "0"
+        "ingredient": "Кислий",
+        "amount": "0"
       },
       {
-        "characteristic": "Свіжий",
-        "value": "3"
+        "ingredient": "Свіжий",
+        "amount": "3"
       },
       {
-        "characteristic": "Пряний",
-        "value": "2"
+        "ingredient": "Пряний",
+        "amount": "2"
       }
     ]
   },
@@ -60,20 +60,20 @@
     "type": "light",
     "recipe": [
       {
-        "characteristic": "Солодкий",
-        "value": "3"
+        "ingredient": "Солодкий",
+        "amount": "3"
       },
       {
-        "characteristic": "Кислий",
-        "value": "0"
+        "ingredient": "Кислий",
+        "amount": "0"
       },
       {
-        "characteristic": "Свіжий",
-        "value": "2"
+        "ingredient": "Свіжий",
+        "amount": "2"
       },
       {
-        "characteristic": "Пряний",
-        "value": "0"
+        "ingredient": "Пряний",
+        "amount": "0"
       }
     ]
   },
@@ -86,20 +86,20 @@
     "type": "light",
     "recipe": [
       {
-        "characteristic": "Солодкий",
-        "value": "4"
+        "ingredient": "Солодкий",
+        "amount": "4"
       },
       {
-        "characteristic": "Кислий",
-        "value": "0"
+        "ingredient": "Кислий",
+        "amount": "0"
       },
       {
-        "characteristic": "Свіжий",
-        "value": "0"
+        "ingredient": "Свіжий",
+        "amount": "0"
       },
       {
-        "characteristic": "Пряний",
-        "value": "0"
+        "ingredient": "Пряний",
+        "amount": "0"
       }
     ]
   }

@@ -48,9 +48,11 @@ export const BarCard = ({ barItem }) => {
                 <Col span={24}>
                   <Title level={3} ellipsis={{rows: 1}} className={s.barCardTitle}>{barItem.name}</Title>
                 </Col>
-                <Col span={24}>
-                  <Paragraph ellipsis={{rows: 3}} className={s.barCardDescription}>{barItem.description}</Paragraph>
-                </Col>
+                {
+                  barItem.description && <Col span={24}>
+                    <Paragraph ellipsis={{rows: 3}} className={s.barCardDescription}>{barItem.description}</Paragraph>
+                  </Col>
+                }
               </Row>
             </Col>
           </Row>
@@ -59,7 +61,7 @@ export const BarCard = ({ barItem }) => {
           <Row>
             <Col span={24}>
               <Row gutter={[16, 16]}>
-                <Col span={18}>
+                <Col span={ barItem?.history ? 18 : 24}>
                   <Button
                     type={'primary'}
                     onClick={()=>handleRecipeModal(true)}
@@ -70,17 +72,19 @@ export const BarCard = ({ barItem }) => {
                     Рецепт
                   </Button>
                 </Col>
-                <Col span={6}>
-                  <Button
-                    type={'primary'}
-                    onClick={()=>handleHistoryModal(true)}
-                    style={{backgroundColor: barItem.available
-                        ? colorWithOpacity(barItem.color, 0.7)
-                        : colorWithOpacity(greyColor, 0.7)}}
-                    className={s.barCardHistoryButton}>
-                    <ReadOutlined />
-                  </Button>
-                </Col>
+                {
+                  barItem?.history && <Col span={6}>
+                    <Button
+                      type={'primary'}
+                      onClick={()=>handleHistoryModal(true)}
+                      style={{backgroundColor: barItem.available
+                          ? colorWithOpacity(barItem.color, 0.7)
+                          : colorWithOpacity(greyColor, 0.7)}}
+                      className={s.barCardHistoryButton}>
+                      <ReadOutlined />
+                    </Button>
+                  </Col>
+                }
               </Row>
             </Col>
           </Row>
@@ -93,7 +97,7 @@ export const BarCard = ({ barItem }) => {
         </Row>
       }
 
-      {!barItem.alcohol &&
+      {barItem.alcohol === false &&
         <Row className={s.cardAlcoholMessageWrapper} style={{color: barItem.available ? barItem.color : greyColor}}>
           <NoAlcoholIcon/>
         </Row>

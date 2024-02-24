@@ -10,7 +10,6 @@ import {scrollToTop} from '../../helpers/scrollToTop';
 import Section from '../Section/Section';
 import Container from '../Container/Container';
 import { BarCard } from './BarCard/BarCard';
-import { HookahCard } from './HookahCard/HookahCard';
 import s from './BarCards.module.scss';
 
 const lastActiveTab = localStorage.getItem('activeTab');
@@ -68,13 +67,9 @@ export const BarCards = () => {
             <Col span={24}>
               <Row gutter={[8, 8]}>
                 {
-                  activeTab !== 'hookah'
-                    ? activeData.map((item, index)=>(
-                      <BarCard barItem={item} key={index}/>
-                    ))
-                    : activeData.map((item, index)=>(
-                      <HookahCard hookahItem={item} key={index}/>
-                    ))
+                  activeData.map((item, index)=>(
+                    <BarCard barItem={item} key={index}/>
+                  ))
                 }
               </Row>
             </Col>
