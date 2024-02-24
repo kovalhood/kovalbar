@@ -76,5 +76,31 @@
         "value": "0"
       }
     ]
+  },
+  {
+    "id": 9040,
+    "available": true,
+    "image": "https://i.ibb.co/3WQZLhF/hookah-cola.png",
+    "name": "Кола",
+    "color": "#da4747",
+    "type": "light",
+    "recipe": [
+      {
+        "characteristic": "Солодкий",
+        "value": "3"
+      },
+      {
+        "characteristic": "Кислий",
+        "value": "0"
+      },
+      {
+        "characteristic": "Свіжий",
+        "value": "2"
+      },
+      {
+        "characteristic": "Пряний",
+        "value": "0"
+      }
+    ]
   }
 ]
