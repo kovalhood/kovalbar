@@ -197,7 +197,7 @@
   },
   {
     "id": 1080,
-    "available": false,
+    "available": true,
     "image": "https://i.ibb.co/TvGhN51/mai-tai.webp",
     "name": "Mai Tai",
     "description": "Фруктовий, екзотичний, ароматний, з виразним присмаком рому",
@@ -325,7 +325,7 @@
   },
   {
     "id": 1120,
-    "available": false,
+    "available": true,
     "image": "https://i.ibb.co/myP7LX8/zombie-2webp.webp",
     "name": "Zombie II",
     "description": "Екзотичний, з ароматом рому, кориці та тропічних фруктів",
