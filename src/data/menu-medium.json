@@ -301,7 +301,7 @@
   },
   {
     "id": 2090,
-    "available": true,
+    "available": false,
     "image": "https://i.ibb.co/mTZy5Rm/jungle-bird.webp",
     "name": "Jungle Bird",
     "description": "Гіркий, фруктовий, з ароматом рому та ананаса",
@@ -359,7 +359,7 @@
   },
   {
     "id": 2110,
-    "available": true,
+    "available": false,
     "image": "https://i.ibb.co/856246L/seabottom.webp",
     "name": "Sea Bottom",
     "description": "Солодкий, карамельний, освіжаючий, на основі горілки",

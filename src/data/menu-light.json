@@ -340,7 +340,7 @@
   },
   {
     "id": 3120,
-    "available": true,
+    "available": false,
     "image": "https://i.ibb.co/cFJkW1k/garibaldi.webp",
     "name": "Garibaldi",
     "description": "Гіркий, освіжаючий, з насиченим смаком апельсина",

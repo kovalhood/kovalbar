@@ -325,7 +325,7 @@
   },
   {
     "id": 1120,
-    "available": true,
+    "available": false,
     "image": "https://i.ibb.co/myP7LX8/zombie-2webp.webp",
     "name": "Zombie II",
     "description": "Екзотичний, з ароматом рому, кориці та тропічних фруктів",
@@ -387,7 +387,7 @@
   },
   {
     "id": 1140,
-    "available": true,
+    "available": false,
     "image": "https://i.ibb.co/fNr50GS/green-fairy.webp",
     "name": "Avada Kedavra",
     "description": "Анісовий, ароматний, гіркий, з легкими трав'яними нотками",
