@@ -1,3 +1,3 @@
-# KovalBar
+# ValBar
 
-This is an app for a menu of KovalBar
+This is an app for a menu of ValBar
