@@ -25,7 +25,7 @@ export const BarCard = ({ barItem }) => {
   };
 
   return (
-    <Col span={12} lg={8} xl={6} key={barItem.id}>
+    barItem.visible && <Col span={12} lg={8} xl={6} key={barItem.id}>
       <Row className={s.barCardWrapper}
            style={{backgroundColor: barItem.available
                ? colorWithOpacity(barItem.color, 0.1)
@@ -69,7 +69,7 @@ export const BarCard = ({ barItem }) => {
                         ? colorWithOpacity(barItem.color, 0.7)
                         : colorWithOpacity(greyColor, 0.7)}}
                     className={s.barCardRecipeButton}>
-                    {barItem?.history ? 'Рецепт' : 'Детальніше'}
+                    Рецепт
                   </Button>
                 </Col>
                 {

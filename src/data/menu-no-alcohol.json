@@ -2,6 +2,7 @@
   {
     "id": 4010,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/D42034c/pina-colada-1-1.webp",
     "name": "Piña Colada",
     "description": "Солодкий, фруктовий, кремовий з ароматом ананаса і кокосу",
@@ -27,6 +28,7 @@
   {
     "id": 4020,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/Lhjym82/tequila-sunrise.webp",
     "name": "Tequila Sunrise",
     "description": "Кисло-солодкий, з апельсиновими і гранатовими нотками",
@@ -48,6 +50,7 @@
   {
     "id": 4030,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/nsPJpBz/mojito.webp",
     "name": "Mojito",
     "description": "Освіжаючий, м'ятний, кисло-солодкий, з цитрусовим смаком",
@@ -78,6 +81,7 @@
   {
     "id": 4040,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/gdM61Lb/blue-lagoon.webp",
     "name": "Blue Lagoon",
     "description": "Освіжаючий, солодкий, цитрусовий, з ароматом апельсина",
@@ -103,6 +107,7 @@
   {
     "id": 4050,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/5T1cqqq/blue-hawaii.webp",
     "name": "Blue Hawaii",
     "description": "Освіжаючий, фруктовий, солодкий, з ароматом ананаса",
@@ -132,6 +137,7 @@
   {
     "id": 4060,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/GdgnZdz/painkiller.webp",
     "name": "Painkiller",
     "description": "Тропічний, фруктовий, з вираженими нотками кокосу",

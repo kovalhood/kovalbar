@@ -1,0 +1,134 @@
+[
+  {
+    "id": 5010,
+    "available": true,
+    "visible": true,
+    "image": "https://i.ibb.co/ZpT1LpHr/blm-sour.webp",
+    "name": "BLM Sour",
+    "description": "Солодкий, яскравий, з нотами кокосу та гранату",
+    "color": "#6e6e6e",
+    "alcohol": true,
+    "type": "medium",
+    "recipe": [
+      {
+        "ingredient": "Ром",
+        "amount": "40мл"
+      },
+      {
+        "ingredient": "Лікер Blue Curasao",
+        "amount": "20мл"
+      },
+      {
+        "ingredient": "Сироп маракуя",
+        "amount": "10мл"
+      },
+      {
+        "ingredient": "Гренадін",
+        "amount": "10мл"
+      },
+      {
+        "ingredient": "Кокосовий сироп",
+        "amount": "10мл"
+      },
+      {
+        "ingredient": "Сік лайму",
+        "amount": "30мл"
+      }
+    ],
+    "history": ""
+  },
+  {
+    "id": 5020,
+    "available": true,
+    "visible": true,
+    "image": "https://i.ibb.co/425NgZk/whiskey-sour.webp",
+    "name": "Vanilla Sour",
+    "description": "Кисло-солодкий, із нотками ванілі та м'яким смаком віскі",
+    "color": "#f2ca48",
+    "alcohol": true,
+    "type": "strong",
+    "recipe": [
+      {
+        "ingredient": "Бурбон",
+        "amount": "60мл"
+      },
+      {
+        "ingredient": "Ванільний сироп",
+        "amount": "22,5мл"
+      },
+      {
+        "ingredient": "Лимонний сік",
+        "amount": "22,5мл"
+      },
+      {
+        "ingredient": "Яєчний білок",
+        "amount": "25мл"
+      }
+    ],
+    "history": ""
+  },
+  {
+    "id": 5030,
+    "available": true,
+    "visible": true,
+    "image": "https://i.ibb.co/Szh3Bv5/good-morning.webp",
+    "name": "Good Morning",
+    "description": "Солодкий, фруктовий, з виразним смаком дині та кокосу",
+    "color": "#fc9b40",
+    "alcohol": true,
+    "type": "light",
+    "recipe": [
+      {
+        "ingredient": "Ром",
+        "amount": "40мл"
+      },
+      {
+        "ingredient": "Динний лікер",
+        "amount": "20мл"
+      },
+      {
+        "ingredient": "Кокосовий сироп",
+        "amount": "10мл"
+      },
+      {
+        "ingredient": "Ананасовий сік",
+        "amount": "60мл"
+      },
+      {
+        "ingredient": "Апельсиновий сік",
+        "amount": "60мл"
+      }
+    ],
+    "history": ""
+  },
+  {
+    "id": 5040,
+    "available": true,
+    "visible": true,
+    "image": "https://i.ibb.co/gLWxRynh/sultan.webp",
+    "name": "Oasis",
+    "description": "Кремовий, з банановим смаком і мигдальним акцентом",
+    "color": "#009b89",
+    "alcohol": true,
+    "type": "medium",
+    "recipe": [
+      {
+        "ingredient": "Банановий лікер",
+        "amount": "30мл"
+      },
+      {
+        "ingredient": "Лікер амаретто",
+        "amount": "30мл"
+      },
+      {
+        "ingredient": "Вершки",
+        "amount": "30мл"
+      },
+      {
+        "ingredient": "Яєчний білок",
+        "amount": "25мл"
+      }
+    ],
+    "history": ""
+  }
+]

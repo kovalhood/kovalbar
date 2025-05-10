@@ -2,6 +2,7 @@
   {
     "id": 3010,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/D42034c/pina-colada-1-1.webp",
     "name": "Piña Colada",
     "description": "Солодкий, фруктовий, кремовий з ароматом ананаса і кокосу",
@@ -31,6 +32,7 @@
   {
     "id": 3020,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/Lhjym82/tequila-sunrise.webp",
     "name": "Tequila Sunrise",
     "description": "Кисло-солодкий, з апельсиновими і гранатовими нотками",
@@ -56,6 +58,7 @@
   {
     "id": 3030,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/nsPJpBz/mojito.webp",
     "name": "Mojito",
     "description": "Освіжаючий, м'ятний, кисло-солодкий, з цитрусовим смаком",
@@ -90,6 +93,7 @@
   {
     "id": 3040,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/gdM61Lb/blue-lagoon.webp",
     "name": "Blue Lagoon",
     "description": "Освіжаючий, солодкий, цитрусовий, з ароматом апельсина",
@@ -119,6 +123,7 @@
   {
     "id": 3050,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/5T1cqqq/blue-hawaii.webp",
     "name": "Blue Hawaii",
     "description": "Освіжаючий, фруктовий, солодкий, з ароматом ананаса",
@@ -152,6 +157,7 @@
   {
     "id": 3060,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/GdgnZdz/painkiller.webp",
     "name": "Painkiller",
     "description": "Тропічний, фруктовий, з вираженими нотками рому та кокосу",
@@ -181,6 +187,7 @@
   {
     "id": 3070,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/VNXpqJQ/jungle-juice-new.webp",
     "name": "Jungle Juice",
     "description": "Екзотичний, фруктовий, солодкий, з ароматом банану",
@@ -214,6 +221,7 @@
   {
     "id": 3080,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/phs0nP7/cuba-libre.webp",
     "name": "Cuba Libre",
     "description": "Свіжий, з колою, насиченим ароматом рому та цитрусу",
@@ -239,6 +247,7 @@
   {
     "id": 3090,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/vhGDt9M/hurricane.webp",
     "name": "Hurricane",
     "description": "Солодкий, освіжаючий, з ароматом рому та цитрусу",
@@ -280,6 +289,7 @@
   {
     "id": 3100,
     "available": true,
+    "visible": true,
     "image": "https://i.ibb.co/251wzT1/tenderness.webp",
     "name": "Tenderness",
     "description": "Солодкий, освіжаючий, з ароматом рому та міксу фруктів",
@@ -316,7 +326,8 @@
   },
   {
     "id": 3110,
-    "available": true,
+    "available": false,
+    "visible": true,
     "image": "https://i.ibb.co/0DHMThs/gin-tonic.webp",
     "name": "Gin and Tonic",
     "description": "Свіжий, тонізуючий, гіркий на смак, з ароматом трав",
@@ -341,6 +352,7 @@
   {
     "id": 3120,
     "available": false,
+    "visible": false,
     "image": "https://i.ibb.co/cFJkW1k/garibaldi.webp",
     "name": "Garibaldi",
     "description": "Гіркий, освіжаючий, з насиченим смаком апельсина",
